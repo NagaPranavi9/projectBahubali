@@ -1,17 +1,19 @@
 package org.example;
 
+import static org.example.Characters.BAHUBHALI;
+
 public class Main {
     public static void main(String[] args) {
-        Characters shivagami = Characters.SHIVAGAMI;
-        Characters bahubhali = Characters.BAHUBHALI;
-        Characters shivudu = Characters.SHIVUDU;
-        Characters devasena = Characters.DEVASENA;
-        Characters bhallaladeva = Characters.BHALLALADEVA;
-        Characters kattappa = Characters.KATTAPPA;
+
+        // normal scenario
+//        BahubaliStory bahubaliStory = new BahubaliStory();
+//        bahubaliStory.storyPlot();
+
+
+        BAHUBHALI.setLove(false);
+
+        BahubaliStory bahubaliStory = new BahubaliStory();
+        bahubaliStory.storyPlot();
     }
-
-
-
-    BahubaliPart1 bp1=new BahubaliPart1();
 
 }
